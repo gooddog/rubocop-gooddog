@@ -1,0 +1,8 @@
+require:
+  - rubocop-rails
+
+Rails/OutputSafety:
+  Enabled: false
+
+Rails/SkipsModelValidations:
+  Enabled: false
