@@ -7,8 +7,14 @@ Bundler/OrderedGems:
 Layout/AccessModifierIndentation:
   EnforcedStyle: outdent
 
+Layout/CaseIndentation:
+  EnforcedStyle: end
+
 Layout/EmptyLinesAroundAccessModifier:
   EnforcedStyle: only_before
+
+Layout/EndAlignment:
+  EnforcedStyleAlignWith: variable
 
 Layout/FirstHashElementIndentation:
   EnforcedStyle: consistent
