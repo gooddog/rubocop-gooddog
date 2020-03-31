@@ -10,16 +10,40 @@ Layout/AccessModifierIndentation:
 Layout/EmptyLinesAroundAccessModifier:
   EnforcedStyle: only_before
 
+Layout/FirstHashElementIndentation:
+  EnforcedStyle: consistent
+
 Layout/LineLength:
   Max: 200
 
 Layout/SpaceInsideArrayLiteralBrackets:
   EnforcedStyle: space
 
+Metrics/AbcSize:
+  Enabled: false
+
 Metrics/BlockLength:
   Enabled: false
 
+Metrics/CyclomaticComplexity:
+  Enabled: false
+
+Metrics/MethodLength:
+  Max: 25
+
+Metrics/PerceivedComplexity:
+  Enabled: false
+
+Naming/AccessorMethodName:
+  Enabled: false
+
+Style/AndOr:
+  Enabled: false
+
 Style/ClassAndModuleChildren:
+  Enabled: false
+
+Style/ConditionalAssignment:
   Enabled: false
 
 Style/Documentation:
@@ -37,15 +61,6 @@ Style/HashEachMethods:
 Style/HashTransformKeys:
   Enabled: false
 
-Layout/FirstHashElementIndentation:
-  EnforcedStyle: consistent
-
-Style/ConditionalAssignment:
-  Enabled: false
-
-Naming/AccessorMethodName:
-  Enabled: false
-
 Style/HashTransformValues:
   Enabled: false
 
@@ -55,26 +70,11 @@ Style/IfUnlessModifier:
 Style/StringLiterals:
   Enabled: false
 
-Metrics/AbcSize:
+Style/StringLiteralsInInterpolation:
   Enabled: false
-
-Metrics/PerceivedComplexity:
-  Enabled: false
-
-Metrics/CyclomaticComplexity:
-  Enabled: false
-
-Metrics/MethodLength:
-  Max: 25
 
 Style/SymbolArray:
   Enabled: false
 
 Style/WordArray:
-  Enabled: false
-
-Style/StringLiteralsInInterpolation:
-  Enabled: false
-
-Style/AndOr:
   Enabled: false
