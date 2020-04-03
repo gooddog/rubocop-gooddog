@@ -22,6 +22,9 @@ Layout/FirstHashElementIndentation:
 Layout/LineLength:
   Max: 200
 
+Layout/MultilineMethodCallIndentation:
+  EnforcedStyle: indented
+
 Layout/SpaceInsideArrayLiteralBrackets:
   EnforcedStyle: space
 
