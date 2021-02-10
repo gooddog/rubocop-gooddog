@@ -79,6 +79,12 @@ Style/HashTransformValues:
 Style/IfUnlessModifier:
   Enabled: false
 
+Style/IfWithBooleanLiteralBranches:
+  Enabled: false
+
+Style/Lambda:
+  Enabled: false
+
 Style/StringLiterals:
   Enabled: false
 

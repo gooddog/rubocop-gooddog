@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name          = "rubocop-gooddog"
-  spec.version       = "0.4"
+  spec.version       = "0.5"
   spec.authors       = ["James Brooks"]
   spec.email         = ["james@gooddogdesign.com"]
   spec.summary       = "RuboCop GoodDog"
@@ -19,5 +19,5 @@ Gem::Specification.new do |spec|
 
   spec.files = Dir["README.md", "CHANGELOG.md", "LICENSE", "config/*.yml"]
 
-  spec.add_runtime_dependency 'rubocop', '>= 0.80.1'
+  spec.add_runtime_dependency 'rubocop', '>= 1.9.1'
 end
