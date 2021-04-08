@@ -16,6 +16,9 @@ Layout/EmptyLinesAroundAccessModifier:
 Layout/EndAlignment:
   EnforcedStyleAlignWith: variable
 
+Layout/FirstArrayElementIndentation:
+  EnforcedStyle: consistent
+
 Layout/FirstHashElementIndentation:
   EnforcedStyle: consistent
 
