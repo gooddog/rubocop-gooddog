@@ -4,6 +4,10 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.7] - 2021-06-25
+### Added
+- `Style/QuotedSymbols` changed from it's default values to `false`, which lines up with the current configuration for `Style/StringLiterals`.
+
 ## [0.6] - 2021-04-08
 ### Added
 - `Layout/FirstArrayElementIndentation` changed from it's default values to `consistent`, which lines up with the current configuration for `Layout/FirstHashElementIndentation`.
