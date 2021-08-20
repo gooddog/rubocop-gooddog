@@ -55,6 +55,9 @@ Metrics/PerceivedComplexity:
 Naming/AccessorMethodName:
   Enabled: false
 
+Naming/InclusiveLanguage:
+  Enabled: false
+
 Style/AndOr:
   Enabled: false
 
