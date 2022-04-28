@@ -4,6 +4,10 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.10] - 2022-04-28
+### Added
+- Disabled default cop `Rails/I18nLocaleTexts`.
+
 ## [0.9] - 2021-08-20
 ### Added
 - Disabled default cop `Naming/InclusiveLanguage`. `Naming/InclusiveLanguage` is politically biased and should not be included by default.

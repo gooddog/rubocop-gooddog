@@ -1,6 +1,9 @@
 require:
   - rubocop-rails
 
+Rails/I18nLocaleTexts:
+  Enabled: false
+
 Rails/OutputSafety:
   Enabled: false
 

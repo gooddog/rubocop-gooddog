@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name          = "rubocop-gooddog"
-  spec.version       = "0.9"
+  spec.version       = "0.10"
   spec.authors       = ["James Brooks"]
   spec.email         = ["james@gooddogdesign.com"]
   spec.summary       = "RuboCop GoodDog"
